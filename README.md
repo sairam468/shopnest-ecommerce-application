@@ -97,38 +97,37 @@ This ensures:
 ## Application Screenshots
 
 ### 🏠 Home Page
-![Home Page](screenshots/home.png)
+![Home Page](ShopNest/screenshots/home.png)
 
 ### 🔐 User Login
-![User Login](screenshots/userlogin.png)
+![User Login](ShopNest/screenshots/userlogin.png)
 
 ### 👤 User Dashboard
-![User Dashboard](screenshots/user dashboard.png)
+![User Dashboard](ShopNest/screenshots/user dashboard.png)
 
 ### 👤 User Profile
-![User Profile](screenshots/user profile.png)
+![User Profile](ShopNest/screenshots/user profile.png)
 
 ### 🛍 Products Using Categories
-![Products Using Categories](screenshots/products using categories.png)
+![Products Using Categories](ShopNest/screenshots/products using categories.png)
 
 ### 🔍 Products Using Search
-![Products Using Search](screenshots/products using search.png)
+![Products Using Search](ShopNest/screenshots/products using search.png)
 
 ### 🛒 Cart
-![Cart](screenshots/cart.png)
+![Cart](ShopNest/screenshots/cart.png)
 
 ### 💳 Place Order
-![Place Order](screenshots/place order.png)
+![Place Order](ShopNest/screenshots/place order.png)
 
 ### ✅ Order Success
-![Order Success](screenshots/placed sucess.png)
+![Order Success](ShopNest/screenshots/placed sucess.png)
 
 ### 🔐 Admin Login
-![Admin Login](screenshots/adminlogin.png)
+![Admin Login](ShopNest/screenshots/adminlogin.png)
 
 ### 📊 Admin Dashboard
-![Admin Dashboard](screenshots/admin dashboard.png)
-
+![Admin Dashboard](ShopNest/screenshots/admin dashboard.png)
 
 ---
 
