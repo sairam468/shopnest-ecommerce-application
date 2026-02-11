@@ -1,10 +1,11 @@
 # 🛒 ShopNest - E-Commerce Application
 
 ## 📌 Overview
-ShopNest is a full-stack e-commerce web application built using Spring Boot and Thymeleaf. 
-It implements a complete online shopping workflow including user authentication, product browsing, cart management, checkout, and order processing.
 
-This project demonstrates strong backend architecture, database design, and MVC implementation.
+ShopNest is a full-stack e-commerce web application built using Spring Boot, Thymeleaf, and MySQL.  
+It implements a complete online shopping workflow including authentication, product browsing, cart management, and order placement.
+
+The application follows a clean MVC layered architecture and demonstrates real-world backend development practices.
 
 ---
 
@@ -17,19 +18,52 @@ This project demonstrates strong backend architecture, database design, and MVC 
 - MySQL
 - Thymeleaf
 - HTML, CSS, JavaScript
+- Maven
 
 ---
 
-## ✨ Key Features
+## 👥 Modules
 
-- User Registration & Login Authentication
-- Product Listing & Detailed View
+### 🧑 User Module (Fully Implemented)
+
+- User Registration & Login
+- View Products by Category
+- Search Products
+- Add to Cart
+- Remove from Cart
 - Session-Based Cart Management
-- Add to Cart / Remove from Cart
-- Checkout & Order Placement
-- Role-based architecture ready for admin expansion
-- Optimized database queries using JPA
-- Clean MVC layered architecture
+- Place Order
+- Order Confirmation
+- View Profile
+- User Dashboard
+
+---
+
+### 👨‍💼 Admin Module (Partially Implemented)
+
+- Admin Login
+- Admin Dashboard
+- Add Products
+- Edit Products
+- Delete Products
+- Manage Categories
+
+(Admin enhancements in progress)
+
+---
+
+## 🏗 Architecture
+
+The project follows a layered MVC architecture:
+
+Controller → Service → Repository → Database
+
+This ensures:
+
+- Clear separation of concerns
+- Scalable and modular structure
+- Maintainable business logic
+- Clean data access layer
 
 ---
 
@@ -37,63 +71,132 @@ This project demonstrates strong backend architecture, database design, and MVC 
 
 - Designed normalized relational schema
 - Implemented proper entity relationships (OneToMany, ManyToOne)
-- Added indexing for optimized query performance
-- Reduced redundant DB calls through efficient repository usage
+- Applied indexing on frequently queried fields
+- Optimized JPA queries to reduce redundant database calls
 
 ---
 
-## 🏗 Architecture
+## ⚡ Performance Optimization
 
-The project follows Spring Boot MVC architecture:
+- Reduced unnecessary DB fetch operations
+- Structured service-layer logic to avoid duplication
+- Optimized repository queries
+- Managed cart using HTTP session to reduce database overhead
 
-Controller → Service → Repository → Database
+---
 
-Ensuring:
-- Clear separation of concerns
-- Scalable structure
-- Maintainable codebase
+## 🔐 Security Implementation
+
+- Role-based login system (User / Admin)
+- Server-side validation for form inputs
+- Secure database interaction using JPA (prevents SQL injection)
+- Session management for authentication control
+
+---
+
+# 📸 Application Screenshots
+
+## 🏠 Home Page
+![Home Page](screenshots/home.png)
+
+---
+
+## 🔐 User Login
+![User Login](screenshots/userlogin.png)
+
+---
+
+## 👤 User Dashboard
+![User Dashboard](screenshots/user dashboard.png)
+
+---
+
+## 👤 User Profile
+![User Profile](screenshots/user profile.png)
+
+---
+
+## 🛍 Products Using Categories
+![Products Using Categories](screenshots/products using categories.png)
+
+---
+
+## 🔍 Products Using Search
+![Products Using Search](screenshots/products using search.png)
+
+---
+
+## 🛒 Cart
+![Cart](screenshots/cart.png)
+
+---
+
+## 💳 Place Order
+![Place Order](screenshots/place order.png)
+
+---
+
+## ✅ Order Success
+![Order Success](screenshots/placed sucess.png)
+
+---
+
+## 🔐 Admin Login
+![Admin Login](screenshots/adminlogin.png)
+
+---
+
+## 📊 Admin Dashboard
+![Admin Dashboard](screenshots/admin dashboard.png)
 
 ---
 
 ## 🚀 How to Run Locally
 
 1. Clone the repository:
+
    git clone https://github.com/sairam468/shopnest-ecommerce-application.git
 
-2. Configure MySQL database in `application.properties`
+2. Configure MySQL in `application.properties`
 
 3. Create database:
+
    CREATE DATABASE shopnest;
 
-4. Run the Spring Boot application:
+4. Run:
+
    ShopNestApplication.java
 
 5. Open browser:
+
    http://localhost:8080
 
 ---
 
-## 📸 Screenshots
+## 🚀 Future Enhancements
 
-(Add screenshots here)
-- Home Page
-- Product Page
-- Cart Page
-- Checkout Page
+- Payment Gateway Integration
+- JWT-based Authentication
+- Order Tracking System
+- Admin Analytics Dashboard
+- Pagination & Sorting
+- Role-based Spring Security integration
 
 ---
 
-## 🎯 Learning Outcomes
+## 🎯 Key Learning Outcomes
 
-- Implemented full-stack integration using Spring Boot & Thymeleaf
-- Applied MVC design pattern
+- Built a complete e-commerce workflow using Spring Boot
+- Applied MVC design pattern in a real-world application
 - Designed optimized relational database schema
-- Improved performance by refining JPA queries
-- Built production-like e-commerce workflow
+- Implemented role-based access structure
+- Integrated Thymeleaf templates with backend controllers
+- Improved performance through JPA query optimization
 
 ---
 
 ## 👨‍💻 Author
 
-Ganta Lakshman Naga Durga Sairam  
-Java Full Stack Developer
+**Ganta Lakshman Naga Durga Sairam**  
+Java Full Stack Developer  
+Hyderabad, India
