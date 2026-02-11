@@ -103,31 +103,31 @@ This ensures:
 ![User Login](ShopNest/screenshots/userlogin.png)
 
 ### 👤 User Dashboard
-![User Dashboard](ShopNest/screenshots/user dashboard.png)
+![User Dashboard](ShopNest/screenshots/user-dashboard.png)
 
 ### 👤 User Profile
-![User Profile](ShopNest/screenshots/user profile.png)
+![User Profile](ShopNest/screenshots/user-profile.png)
 
 ### 🛍 Products Using Categories
-![Products Using Categories](ShopNest/screenshots/products using categories.png)
+![Products Using Categories](ShopNest/screenshots/products-using-categories.png)
 
 ### 🔍 Products Using Search
-![Products Using Search](ShopNest/screenshots/products using search.png)
+![Products Using Search](ShopNest/screenshots/products-using-search.png)
 
 ### 🛒 Cart
 ![Cart](ShopNest/screenshots/cart.png)
 
 ### 💳 Place Order
-![Place Order](ShopNest/screenshots/place order.png)
+![Place Order](ShopNest/screenshots/place-order.png)
 
 ### ✅ Order Success
-![Order Success](ShopNest/screenshots/placed sucess.png)
+![Order Success](ShopNest/screenshots/placed-sucess.png)
 
 ### 🔐 Admin Login
 ![Admin Login](ShopNest/screenshots/adminlogin.png)
 
 ### 📊 Admin Dashboard
-![Admin Dashboard](ShopNest/screenshots/admin dashboard.png)
+![Admin Dashboard](ShopNest/screenshots/admin-dashboard.png)
 
 ---
 
