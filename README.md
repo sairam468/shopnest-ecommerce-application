@@ -94,60 +94,41 @@ This ensures:
 
 ---
 
-# 📸 Application Screenshots
+## Application Screenshots
 
-## 🏠 Home Page
+### 🏠 Home Page
 ![Home Page](screenshots/home.png)
 
----
-
-## 🔐 User Login
+### 🔐 User Login
 ![User Login](screenshots/userlogin.png)
 
----
-
-## 👤 User Dashboard
+### 👤 User Dashboard
 ![User Dashboard](screenshots/user dashboard.png)
 
----
-
-## 👤 User Profile
+### 👤 User Profile
 ![User Profile](screenshots/user profile.png)
 
----
-
-## 🛍 Products Using Categories
+### 🛍 Products Using Categories
 ![Products Using Categories](screenshots/products using categories.png)
 
----
-
-## 🔍 Products Using Search
+### 🔍 Products Using Search
 ![Products Using Search](screenshots/products using search.png)
 
----
-
-## 🛒 Cart
+### 🛒 Cart
 ![Cart](screenshots/cart.png)
 
----
-
-## 💳 Place Order
+### 💳 Place Order
 ![Place Order](screenshots/place order.png)
 
----
-
-## ✅ Order Success
+### ✅ Order Success
 ![Order Success](screenshots/placed sucess.png)
 
----
-
-## 🔐 Admin Login
+### 🔐 Admin Login
 ![Admin Login](screenshots/adminlogin.png)
 
----
-
-## 📊 Admin Dashboard
+### 📊 Admin Dashboard
 ![Admin Dashboard](screenshots/admin dashboard.png)
+
 
 ---
 
